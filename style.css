@@ -1,0 +1,72 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: purple;*/
+}
+
+#innerContainer {
+	background-image:url('header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-clip: padding-box;
+	/*background-color: green;*/
+	width: 100vmin;
+	height: 100vmin;
+}
+
+#startupHeader {
+	height: 5vmin;
+	/*background-color: orange;*/
+	position: relative;
+	top: 16%;
+}
+
+.headerTextContainer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3vmin;
+}
+
+#laptopBody {
+	height: 4vmin;
+	/*background-color: pink;*/
+	position: relative;
+	bottom: 17.5%;
+}
+
+.laptopBodyContainer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+
+.btn-primary {
+	border-radius: 30em;
+	font-size: 2vmin;
+	background-color: #ff3300;
+	border: none;
+}
